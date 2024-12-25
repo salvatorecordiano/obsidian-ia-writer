@@ -29,12 +29,14 @@
 }
 
 body {
+  /** DISABLE
   --h1-size: var(--font-text-size);
   --h2-size: var(--font-text-size);
   --h3-size: var(--font-text-size);
   --h4-size: var(--font-text-size);
   --h5-size: var(--font-text-size);
   --h6-size: var(--font-text-size);
+  **/
   --vault-name-font-weight: 600;
 
   --file-line-width: min(800px, 98vw);
@@ -169,7 +171,6 @@ input[type=checkbox]:checked::after {
 .canvas-node-container input[type=checkbox]:not(:checked)::after {
   left: -12px;
 }
-
 
 .nav-buttons-container {
   justify-content: flex-start;
